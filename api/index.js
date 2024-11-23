@@ -9,7 +9,6 @@ const PORT = 3000 || process.env.PORT;
 
 app.use(express.json());
 
-//mounting api routes
 app.use("/api/v1",router)
 
 app.get("/", (req, res)=>{
